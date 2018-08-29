@@ -4,7 +4,11 @@
     <list default="true" id="08da8414-337f-4164-a31d-0b76127fc727" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,7 +65,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="68" />
+          <entry key="java" value="72" />
           <entry key="properties" value="4" />
           <entry key="xml" value="1" />
         </counts>
@@ -69,7 +73,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="72" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="1" />
@@ -77,14 +81,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7391" />
+          <entry key="java" value="7595" />
           <entry key="properties" value="4" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7391" />
+          <entry key="JAVA" value="7595" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="5" />
         </counts>
@@ -102,8 +106,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +140,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,8 +190,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/enums/TipoCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/ClienteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/EnderecoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/enums/EstadoPagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComCartao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/PedidoRepository.java" />
@@ -171,8 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedidoPK.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/ItemPedidoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/CursomcApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComBoleto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Categoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Cidade.java" />
@@ -183,8 +207,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedido.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java" />
       </list>
     </option>
   </component>
@@ -302,7 +330,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535576067261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535576967901" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -349,15 +377,16 @@
       <workItem from="1535377421262" duration="11002000" />
       <workItem from="1535474656235" duration="3685000" />
       <workItem from="1535541227237" duration="18260000" />
-      <workItem from="1535575405295" duration="876000" />
+      <workItem from="1535575405295" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34457000" />
+    <option name="totallyTimeSpent" value="34958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="51" width="1223" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28632846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,7 +404,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29881656" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29881656" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32988167" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -486,6 +515,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,6 +546,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -549,34 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -681,8 +688,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,8 +718,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="341">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/PedidoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/PedidoResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
