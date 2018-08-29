@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08da8414-337f-4164-a31d-0b76127fc727" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Cidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Estado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Categoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Cidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Cidade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Endereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Estado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Pedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,18 +49,19 @@
     <session id="-170111995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="66" />
+          <entry key="java" value="68" />
           <entry key="properties" value="4" />
           <entry key="xml" value="1" />
         </counts>
@@ -82,7 +69,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="68" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="1" />
@@ -90,14 +77,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7046" />
+          <entry key="java" value="7391" />
           <entry key="properties" value="4" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7046" />
+          <entry key="JAVA" value="7391" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="5" />
         </counts>
@@ -113,10 +100,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Estado.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="391">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,55 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedido.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedidoPK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pagamento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +155,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/CategoriaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/ProdutoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/exceptions/ObjectNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/StandardError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ResourceExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/CidadeRepository.java" />
@@ -243,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java" />
       </list>
     </option>
   </component>
@@ -263,7 +205,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="12" />
     <option name="y" value="51" />
     <option name="width" value="1223" />
@@ -275,9 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +290,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +302,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535571371490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535576067261" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -406,18 +348,18 @@
       <workItem from="1535376699176" duration="634000" />
       <workItem from="1535377421262" duration="11002000" />
       <workItem from="1535474656235" duration="3685000" />
-      <workItem from="1535541227237" duration="16870000" />
+      <workItem from="1535541227237" duration="18260000" />
+      <workItem from="1535575405295" duration="876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32191000" />
+    <option name="totallyTimeSpent" value="34457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="51" width="1223" height="810" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28116938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28632846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,13 +369,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46745563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46745563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29881656" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29881656" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32988167" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -512,9 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,19 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,29 +475,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/ClienteRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,12 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,12 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,9 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,19 +521,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/kkkjl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/kkkjl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/exceptions/ObjectNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -655,19 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="60" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,9 +605,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComBoleto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComCartao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -770,28 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedidoPK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="204">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComBoleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/PagamentoComCartao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -817,8 +661,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -827,8 +671,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/ItemPedido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/CategoriaResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CategoriaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
