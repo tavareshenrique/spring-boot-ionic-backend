@@ -72,29 +72,36 @@ public class CursomcApplication implements CommandLineRunner {
         //Estado e Cidades
         Estado est1 = new Estado(null, "Minas Gerais");
         Estado est2 = new Estado(null, "São Paulo");
+        Estado est3 = new Estado(null, "Rio de Janeiro");
 
         Cidade c1 = new Cidade(null, "Uberlândia", est1);
         Cidade c2 = new Cidade(null, "São Paulo", est2);
         Cidade c3 = new Cidade(null, "Campinas", est2);
+        Cidade c4 = new Cidade(null, "Três Rios", est3);
 
         est1.getCidades().addAll(Arrays.asList(c1));
         est2.getCidades().addAll(Arrays.asList(c2, c3));
+        est3.getCidades().addAll(Arrays.asList(c4));
 
-        estadoRepository.saveAll(Arrays.asList(est1, est2));
-        cidadeRepository.saveAll(Arrays.asList(c1, c2, c3));
+        estadoRepository.saveAll(Arrays.asList(est1, est2, est3));
+        cidadeRepository.saveAll(Arrays.asList(c1, c2, c3, c4));
 
         //Cliente, Cidade e Endereços
-        Cliente cli1= new Cliente(null, "Maria Silva", "maria@gmail.com", "36378912377", TipoCliente.PESSOAFISICA);
+        Cliente cli1 = new Cliente(null, "Maria Silva", "maria@gmail.com", "36378912377", TipoCliente.PESSOAFISICA);
+        Cliente cli2 = new Cliente(null, "Henrique Tavares", "ihenrits@gmail.com", "16747802730", TipoCliente.PESSOAFISICA);
 
         cli1.getTelefones().addAll(Arrays.asList("27363323", "93838393"));
+        cli2.getTelefones().addAll(Arrays.asList("24988174627"));
 
         Endereco e1 = new Endereco(null, "Rua Flores", "300", "Apto 303", "Jardim", "38220834", cli1, c1);
         Endereco e2 = new Endereco(null, "Avenida Matos", "105", "Sala 800", "Centro", "38777012", cli1, c2);
+        Endereco e3 = new Endereco(null, "Rua João Felicidade", "640", "Casa 1", "Vila Isabel", "25815560", cli2, c4);
 
         cli1.getEnderecos().addAll(Arrays.asList(e1, e2));
+        cli2.getEnderecos().addAll(Arrays.asList(e3));
 
-        clienteRepository.saveAll(Arrays.asList(cli1));
-        enderecoRepository.saveAll(Arrays.asList(e1, e2));
+        clienteRepository.saveAll(Arrays.asList(cli1, cli2));
+        enderecoRepository.saveAll(Arrays.asList(e1, e2, e3));
 
         //Pedido e Pagamento
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
