@@ -1,15 +1,22 @@
 package com.henriquetavares.cursomc.services.validation;
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.henriquetavares.cursomc.domain.Cliente;
 import com.henriquetavares.cursomc.domain.enums.TipoCliente;
 import com.henriquetavares.cursomc.dto.ClienteNewDTO;
+import com.henriquetavares.cursomc.repositories.ClienteRepository;
 import com.henriquetavares.cursomc.resources.exception.FieldMessage;
 import com.henriquetavares.cursomc.services.validation.utils.BR;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 public class ClienteInsertValidator implements ConstraintValidator<ClienteInsert, ClienteNewDTO> {
+
+    @Autowired
+    private ClienteRepository repo;
 
     @Override
     public void initialize(ClienteInsert ann) {
@@ -30,6 +37,10 @@ public class ClienteInsertValidator implements ConstraintValidator<ClienteInsert
             list.add(new FieldMessage("cpfOuCnpj", "CNPJ Inválido"));
         }
 
+        Cliente aux = repo.findByEmail(objDto.getEmail());
+        if (aux != null) {
+            list.add(new FieldMessage("email", "O email "+ '"'+objDto.getEmail()+'"' +" já existe!"));
+        }
 
         for (FieldMessage e : list) {
             context.disableDefaultConstraintViolation();
