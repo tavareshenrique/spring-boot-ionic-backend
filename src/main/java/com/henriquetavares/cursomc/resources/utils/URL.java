@@ -7,8 +7,12 @@ import java.util.List;
 
 public class URL {
 
-    public static String decodeParam(String s) throws UnsupportedEncodingException {
-        return URLDecoder.decode(s, "UTF-8"); //mudar aula 48 - minuto: 2:50
+    public static String decodeParam(String s) {
+        try {
+            return URLDecoder.decode(s, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            return "";
+        }
     }
 
     public static List<Integer> decodeIntList(String s) {
