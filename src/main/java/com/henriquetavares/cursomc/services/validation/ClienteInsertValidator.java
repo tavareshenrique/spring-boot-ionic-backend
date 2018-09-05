@@ -1,6 +1,5 @@
 package com.henriquetavares.cursomc.services.validation;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.henriquetavares.cursomc.domain.Cliente;
 import com.henriquetavares.cursomc.domain.enums.TipoCliente;
 import com.henriquetavares.cursomc.dto.ClienteNewDTO;
@@ -39,7 +38,7 @@ public class ClienteInsertValidator implements ConstraintValidator<ClienteInsert
 
         Cliente aux = repo.findByEmail(objDto.getEmail());
         if (aux != null) {
-            list.add(new FieldMessage("email", "O email "+ '"'+objDto.getEmail()+'"' +" já existe!"));
+            list.add(new FieldMessage("templates/email", "O email "+ '"'+objDto.getEmail()+'"' +" já existe!"));
         }
 
         for (FieldMessage e : list) {

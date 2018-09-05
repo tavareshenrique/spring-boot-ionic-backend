@@ -1,14 +1,11 @@
 package com.henriquetavares.cursomc.services.validation.utils;
 
 import com.henriquetavares.cursomc.domain.Cliente;
-import com.henriquetavares.cursomc.domain.enums.TipoCliente;
 import com.henriquetavares.cursomc.dto.ClienteDTO;
 import com.henriquetavares.cursomc.repositories.ClienteRepository;
 import com.henriquetavares.cursomc.resources.exception.FieldMessage;
 import com.henriquetavares.cursomc.services.validation.ClienteUpdate;
-import com.sun.xml.internal.ws.resources.HttpserverMessages;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.devtools.remote.server.HandlerMapper;
 import org.springframework.web.servlet.HandlerMapping;
 
 import javax.servlet.http.HttpServletRequest;
@@ -40,7 +37,7 @@ public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate
 
         Cliente aux = repo.findByEmail(objDto.getEmail());
         if (aux != null && !aux.getId().equals(uriId)) {
-            list.add(new FieldMessage("email", "O email "+ '"'+objDto.getEmail()+'"' +" já existe!"));
+            list.add(new FieldMessage("templates/email", "O email "+ '"'+objDto.getEmail()+'"' +" já existe!"));
         }
 
         for (FieldMessage e : list) {
