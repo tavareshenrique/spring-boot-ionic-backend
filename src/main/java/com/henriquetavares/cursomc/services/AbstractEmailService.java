@@ -1,7 +1,6 @@
 package com.henriquetavares.cursomc.services;
 
 import com.henriquetavares.cursomc.domain.Pedido;
-import org.hibernate.sql.Template;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
