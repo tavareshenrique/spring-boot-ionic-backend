@@ -4,6 +4,7 @@ import com.henriquetavares.cursomc.domain.*;
 import com.henriquetavares.cursomc.domain.enums.EstadoPagamento;
 import com.henriquetavares.cursomc.domain.enums.TipoCliente;
 import com.henriquetavares.cursomc.repositories.*;
+import com.henriquetavares.cursomc.services.S3Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,6 +18,9 @@ import java.util.Arrays;
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner {
 
+    @Autowired
+    private S3Service s3Service;
+
     public static void main(String[] args) {
 
         SpringApplication.run(CursomcApplication.class, args);
@@ -25,6 +29,6 @@ public class CursomcApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
+        s3Service.uploadFile("C:\\temp\\fotos\\Rio.jpg");
     }
 }
