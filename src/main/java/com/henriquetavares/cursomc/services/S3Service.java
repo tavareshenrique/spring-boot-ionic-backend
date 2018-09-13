@@ -34,7 +34,7 @@ public class S3Service {
         try {
             File file = new File(localFilePath);
             LOG.info("Iniciando Upload");
-            s3client.putObject(new PutObjectRequest(bucketName, "rio.jpg", file));
+            s3client.putObject(new PutObjectRequest(bucketName, "teste", file));
             LOG.info("Upload Finalizado");
         } catch (AmazonServiceException e) {
             LOG.info("AmazonServiceException: " + e.getErrorMessage());
