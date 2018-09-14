@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08da8414-337f-4164-a31d-0b76127fc727" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/filters/HeaderExposureFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +65,7 @@
           <entry key="class" value="27" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="345" />
+          <entry key="java" value="346" />
           <entry key="properties" value="28" />
           <entry key="xml" value="7" />
         </counts>
@@ -74,7 +74,7 @@
         <counts>
           <entry key="CLASS" value="27" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="345" />
+          <entry key="JAVA" value="346" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="28" />
           <entry key="XML" value="7" />
@@ -83,7 +83,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="6" />
-          <entry key="java" value="26058" />
+          <entry key="java" value="26122" />
           <entry key="properties" value="316" />
           <entry key="xml" value="118" />
         </counts>
@@ -91,7 +91,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="26058" />
+          <entry key="JAVA" value="26122" />
           <entry key="Properties" value="316" />
           <entry key="XML" value="118" />
         </counts>
@@ -111,104 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/CidadeDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/CidadeRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/EstadoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CidadeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/EstadoResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ValidationError.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ResourceExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/DBService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/filters/HeaderExposureFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/domain/Pedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/DevConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/email/confirmacaoPedido.html" />
@@ -314,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/EstadoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/DBService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/filters/HeaderExposureFilter.java" />
       </list>
     </option>
   </component>
@@ -408,89 +315,6 @@
               <item name="cursomc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursomc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -509,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="ClienteReso&#9;FILE&#9;file://C:/temp/ws/cursomc/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java&#10;cliente&#9;FILE&#9;file://C:/temp/ws/cursomc/src/main/java/com/henriquetavares/cursomc/domain/Cliente.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536927138648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536927888392" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -581,12 +405,12 @@
       <workItem from="1536674514643" duration="8000" />
       <workItem from="1536763422859" duration="2172000" />
       <workItem from="1536836473643" duration="29979000" />
-      <workItem from="1536923802890" duration="3136000" />
+      <workItem from="1536923802890" duration="3770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163301000" />
+    <option name="totallyTimeSpent" value="163935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -602,7 +426,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.2884097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.2884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6078167" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,7 +434,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50064266" side_tool="true" weight="0.38948786" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35849056" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35849056" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32884097" />
@@ -665,13 +489,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/EnderecoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/BoletoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1066,8 +883,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="207">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/filters/HeaderExposureFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
