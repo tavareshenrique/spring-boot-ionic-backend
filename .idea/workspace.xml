@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08da8414-337f-4164-a31d-0b76127fc727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/CidadeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/EstadoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/EstadoResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/CidadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/EstadoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/CidadeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/CidadeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/EstadoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/repositories/EstadoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/repositories/EstadoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/henriquetavares/cursomc/repositories/EstadoRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,8 +64,8 @@
           <entry key="class" value="27" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="342" />
-          <entry key="properties" value="27" />
+          <entry key="java" value="345" />
+          <entry key="properties" value="28" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
@@ -83,16 +73,16 @@
         <counts>
           <entry key="CLASS" value="27" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="342" />
+          <entry key="JAVA" value="345" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="27" />
+          <entry key="Properties" value="28" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="6" />
-          <entry key="java" value="25899" />
+          <entry key="java" value="25915" />
           <entry key="properties" value="316" />
           <entry key="xml" value="118" />
         </counts>
@@ -100,7 +90,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="25899" />
+          <entry key="JAVA" value="25915" />
           <entry key="Properties" value="316" />
           <entry key="XML" value="118" />
         </counts>
@@ -123,10 +113,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/CidadeDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="242">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
@@ -173,14 +164,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/EstadoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="439">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ValidationError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ResourceExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/DBService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -490,7 +508,7 @@
     <property name="SearchEverywhereHistoryKey" value="ClienteReso&#9;FILE&#9;file://C:/temp/ws/cursomc/src/main/java/com/henriquetavares/cursomc/resources/ClienteResources.java&#10;cliente&#9;FILE&#9;file://C:/temp/ws/cursomc/src/main/java/com/henriquetavares/cursomc/domain/Cliente.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536924813371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536925968629" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -562,16 +580,15 @@
       <workItem from="1536674514643" duration="8000" />
       <workItem from="1536763422859" duration="2172000" />
       <workItem from="1536836473643" duration="29979000" />
-      <workItem from="1536923802890" duration="886000" />
+      <workItem from="1536923802890" duration="1926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161051000" />
+    <option name="totallyTimeSpent" value="162091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.24678664" />
       <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" weight="0.3978149" />
@@ -698,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/DBService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -789,24 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ValidationError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/security/UserSpringSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ResourceExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -927,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/ClienteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -951,17 +940,6 @@
           <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/CidadeDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1044,13 +1022,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/dto/CidadeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/EstadoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="439">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ValidationError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/resources/exception/ResourceExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henriquetavares/cursomc/services/DBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
         </state>
       </provider>
     </entry>
