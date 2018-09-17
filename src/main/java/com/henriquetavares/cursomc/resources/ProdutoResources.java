@@ -4,6 +4,7 @@ import com.henriquetavares.cursomc.domain.Produto;
 import com.henriquetavares.cursomc.dto.ProdutoDTO;
 import com.henriquetavares.cursomc.resources.utils.URL;
 import com.henriquetavares.cursomc.services.ProdutoService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,7 @@ public class ProdutoResources {
     @Autowired
     private ProdutoService service;
 
+    @ApiOperation(value="Listar Produto por ID")
     @RequestMapping(value="/{id}", method= RequestMethod.GET)
     public ResponseEntity<Produto> find(@PathVariable Integer id) {
 
@@ -26,6 +28,7 @@ public class ProdutoResources {
         return ResponseEntity.ok().body(obj);
     }
 
+    @ApiOperation(value="Listar Produto por Paginação")
     @RequestMapping(method=RequestMethod.GET)
     public ResponseEntity<Page<ProdutoDTO>> findPage(@RequestParam(value = "nome", defaultValue = "") String nome,
                                                      @RequestParam(value = "categorias", defaultValue = "") String categorias,

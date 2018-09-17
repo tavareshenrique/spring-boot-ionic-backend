@@ -5,6 +5,7 @@ import com.henriquetavares.cursomc.security.JWTUtil;
 import com.henriquetavares.cursomc.security.UserSpringSecurity;
 import com.henriquetavares.cursomc.services.AuthService;
 import com.henriquetavares.cursomc.services.UserService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,6 +26,7 @@ public class AuthResource {
     @Autowired
     private AuthService service;
 
+    @ApiOperation(value="Atualizar Token")
     @RequestMapping(value="/refresh_token", method= RequestMethod.POST)
     public ResponseEntity<Void> refreshToken(HttpServletResponse response) {
         UserSpringSecurity user = UserService.authenticated();
@@ -34,6 +36,7 @@ public class AuthResource {
         return ResponseEntity.noContent().build();
     }
 
+    @ApiOperation(value="Recuperar Senha")
     @RequestMapping(value="/forgot", method= RequestMethod.POST)
     public ResponseEntity<Void> forgot(@Valid @RequestBody EmailDTO objDTO) {
         service.sendNewPassword(objDTO.getEmail());

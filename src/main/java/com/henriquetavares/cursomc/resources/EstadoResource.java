@@ -6,6 +6,7 @@ import com.henriquetavares.cursomc.dto.CidadeDTO;
 import com.henriquetavares.cursomc.dto.EstadoDTO;
 import com.henriquetavares.cursomc.services.CidadeService;
 import com.henriquetavares.cursomc.services.EstadoService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -27,6 +28,7 @@ public class EstadoResource {
     @Autowired
     CidadeService cidadeService;
 
+    @ApiOperation(value="Listar Todos Estados")
     @RequestMapping(method= RequestMethod.GET)
     public ResponseEntity<List<EstadoDTO>> findAll() {
         List<Estado> list = estadoService.findAll();
@@ -35,6 +37,7 @@ public class EstadoResource {
         return ResponseEntity.ok().body(listDTO);
     }
 
+    @ApiOperation(value="Listar Cidades por Estado")
     @RequestMapping(value="/{estadoId}/cidades", method= RequestMethod.GET)
     public  ResponseEntity<List<CidadeDTO>> find(@PathVariable Integer estadoId) {
 

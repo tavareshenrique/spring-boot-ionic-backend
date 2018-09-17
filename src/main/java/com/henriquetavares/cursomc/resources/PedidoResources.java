@@ -2,6 +2,7 @@ package com.henriquetavares.cursomc.resources;
 
 import com.henriquetavares.cursomc.domain.Pedido;
 import com.henriquetavares.cursomc.services.PedidoService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +19,7 @@ public class PedidoResources {
     @Autowired
     private PedidoService service;
 
+    @ApiOperation(value="Listar Pedido por ID")
     @RequestMapping(value="/{id}", method= RequestMethod.GET)
     public ResponseEntity<Pedido> find(@PathVariable Integer id) {
 
@@ -25,6 +27,7 @@ public class PedidoResources {
         return ResponseEntity.ok().body(obj);
     }
 
+    @ApiOperation(value="Incluir Pedido")
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<Void> insert(@Valid @RequestBody Pedido obj) {
         service.insert(obj); //obj = service.insert(obj); //Pega a URI do novo Recurso que foi inserido
@@ -35,6 +38,7 @@ public class PedidoResources {
 
     }
 
+    @ApiOperation(value="Listar Pedido por Paginação")
     @RequestMapping(method=RequestMethod.GET)
     public ResponseEntity<Page<Pedido>> findPage(@RequestParam(value = "page", defaultValue = "0") Integer page,
                                                  @RequestParam(value = "linesPerPage", defaultValue = "24") Integer linesPerPage,

@@ -4,6 +4,7 @@ import com.henriquetavares.cursomc.domain.Cliente;
 import com.henriquetavares.cursomc.dto.ClienteDTO;
 import com.henriquetavares.cursomc.dto.ClienteNewDTO;
 import com.henriquetavares.cursomc.services.ClienteService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -24,18 +25,21 @@ public class ClienteResources {
     @Autowired
     private ClienteService service;
 
+    @ApiOperation(value="Listar Cliente por ID")
     @RequestMapping(value="/{id}", method=RequestMethod.GET)
     public ResponseEntity<Cliente> find(@PathVariable Integer id) {
         Cliente obj = service.find(id);
         return ResponseEntity.ok().body(obj);
     }
 
+    @ApiOperation(value="Listar Cliente por Email")
     @RequestMapping(value="/email", method=RequestMethod.GET)
     public ResponseEntity<Cliente> find(@RequestParam(value = "value") String email) {
         Cliente obj = service.findByEmail(email);
         return ResponseEntity.ok().body(obj);
     }
 
+    @ApiOperation(value="Incluir Cliente")
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<Void> insert(@Valid @RequestBody ClienteNewDTO objDTO) {
         Cliente obj = service.fromDTO(objDTO);
@@ -46,6 +50,7 @@ public class ClienteResources {
         return ResponseEntity.created(uri).build();
     }
 
+    @ApiOperation(value="Atualiza Cliente")
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
     public ResponseEntity<Void> update(@Valid @RequestBody ClienteDTO objDTO, @PathVariable Integer id) {
         Cliente obj = service.fromDTO(objDTO);
@@ -56,6 +61,7 @@ public class ClienteResources {
     }
 
     @PreAuthorize("hasAnyRole('ADMIN')")
+    @ApiOperation(value="Excluir Cliente")
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Void> delete(@PathVariable Integer id) {
         service.delete(id);
@@ -63,6 +69,7 @@ public class ClienteResources {
     }
 
     @PreAuthorize("hasAnyRole('ADMIN')")
+    @ApiOperation(value="Listar Todos Clientes")
     @RequestMapping(method=RequestMethod.GET)
     public ResponseEntity<List<ClienteDTO>> findAll() {
         List<Cliente> list = service.findAll();
@@ -71,6 +78,7 @@ public class ClienteResources {
     }
 
     @PreAuthorize("hasAnyRole('ADMIN')")
+    @ApiOperation(value="Listar Clientes por Paginação")
     @RequestMapping(value = "/page", method=RequestMethod.GET)
     public ResponseEntity<Page<ClienteDTO>> findPage(@RequestParam(value = "page", defaultValue = "0") Integer page,
                                                        @RequestParam(value = "linesPerPage", defaultValue = "24") Integer linesPerPage,
@@ -81,6 +89,7 @@ public class ClienteResources {
         return ResponseEntity.ok().body(listDTO);
     }
 
+    @ApiOperation(value="Adicionar Foto de Perfil")
     @RequestMapping(value = "/picture", method = RequestMethod.POST)
     public ResponseEntity<Void> uploadProfilePicture(@RequestParam(name = "file")  MultipartFile file) {
         URI uri = service.uploadProfilePicture(file);
